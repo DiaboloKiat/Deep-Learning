@@ -3,14 +3,14 @@
 <h3 align="left"> Object Detection Systems 簡介 </h3>
 
 #### 傳統方法由三個部分構成，分別為:
-- **Object Localization** (Hypothesize bounding boxes), ex: Sliding Windows.
-- **Feature Extraction** (Resample pixels or features for each box), ex: SIFT, HOG…
-- **Image Classification** (Apply a highquality classifier), ex: SVM, Adabosst…
+- **Object Localization (滑动窗口)** (Hypothesize bounding boxes), ex: [Sliding Windows](https://blog.csdn.net/JNingWei/article/details/78866850).
+- **Feature Extraction (特徵提取)** (Resample pixels or features for each box), ex: SIFT (Scale Invariant Feature Transform), HOG (Histogram of Oriented Gradient).
+- **Image Classification (影像分類)** (Apply a highquality classifier), ex: SVM (Support Vector Machine), Adabosst (Adaptive Boosting).
 
-object detection = Object Localization + Feature Extraction + Classification
+Object Detection = Object Localization + Feature Extraction + Classification
 
 #### Deep Learning 方法
-- Deep Learning 出現之後，object detection 有了取得重大突破。主要有個兩方向:
+- Deep Learning 出現之後，Object Detection 有了取得重大突破。主要有個兩方向:
     - 以R-CNN為代表(基於 Region Proposal)的深度學習目標檢測算法，如: R-CNN，Fast R-CNN，Faster R-CNN。尤其是基於Faster-RCNN的檢測都在 PASCAL VOC，COCO和ILSVRC上都取不錯的成果。
     - 以YOLO為代表(基於 Regression)的深度學習目標檢測算法，如: YOLO (You Only Look Once)，SSD (Single Shot MultiBox Detector)。
 
