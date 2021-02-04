@@ -1,5 +1,4 @@
-# Deep-Learning
-
+<h1 align="center"> Deep-Learning </h1>
 
 ## **Installion**
 Clone the repository
@@ -8,7 +7,7 @@ $ git clone https://github.com/DiaboloKiat/Deep-Learning.git
 ```
 
 ## **Introduction**
-Basically one stage and two stage object detection structure
+Basically **one stage** and **two stage** object detection structure
 <img src="https://github.com/DiaboloKiat/Deep-Learning/blob/master/Introduction/img/one_two_stage.png" width="100%" height="100%">
 
 
@@ -50,7 +49,11 @@ Basically one stage and two stage object detection structure
 ### 
 
 
+<h2 align="center"> Reference </h2>
 
+- [深度學習 —— 什麼是one stage，什麼是two stage 物件偵測](https://chih-sheng-huang821.medium.com/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-%E4%BB%80%E9%BA%BC%E6%98%AFone-stage-%E4%BB%80%E9%BA%BC%E6%98%AFtwo-stage-%E7%89%A9%E4%BB%B6%E5%81%B5%E6%B8%AC-fc3ce505390f)
+- [深度學習 —— 物件偵測上的模型結構變化](https://chih-sheng-huang821.medium.com/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-%E7%89%A9%E4%BB%B6%E5%81%B5%E6%B8%AC%E4%B8%8A%E7%9A%84%E6%A8%A1%E5%9E%8B%E7%B5%90%E6%A7%8B%E8%AE%8A%E5%8C%96-e23fd928ee59)
+- []()
 
 
 
