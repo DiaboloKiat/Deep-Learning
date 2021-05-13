@@ -46,7 +46,11 @@ Object Detection = Object Localization + Feature Extraction + Classification
 - [MobileNet v1 和 MobileNet v2](https://zhuanlan.zhihu.com/p/50045821)
 - 
 
+<h2 align="center"> Paper </h2>
 
+- [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325) 2016
+- [FSSD: Feature Fusion Single Shot Multibox Detector](https://arxiv.org/abs/1712.00960) 2018
+- [ASSD: Attentive Single Shot Multibox Detector](https://arxiv.org/abs/1909.12456) 2019
 
 
 
