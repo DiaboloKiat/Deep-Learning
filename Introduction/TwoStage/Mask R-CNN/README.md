@@ -44,7 +44,7 @@
 
 - Figure 4 的右圖是基於 FPN 演算法引入 mask 分支後的檢測部分。 FPN 中就將原來 Faster R-CNN 中的 RoIPool 移到 res5 後面，也就是 RoIPool layer 之後不再涉及一些特徵提取操作，這樣就減少了很多重複計算。圖中的 RoI 指的就是 RoIAlign 操作，上面一條分支得到維度為 7*7*256 的feature map（因為 FPN 算法是基於 5個融合特徵層分別做檢測，這裡僅以一個融合特徵層為例介紹，每個融合特徵層的輸出 channel 都是256，因此經過 RoIAlign 後得到的輸出 channel 還是 256），最後接兩個 1024 維度的全連接層就可以做為 class 和 box 分支的輸入。下面一條分支用 14*14 大小的劃分得到 14*14*256 的輸出，然後接數個 convolution （28*28*256） 和 deconvolution layer （28*28*80）得到 mask。
 
-<img src="https://github.com/DiaboloKiat/Deep-Learning/blob/master/Introduction/TwoStage/Mask R-CNN/img/Table1a.png" width="50%" height="50%">
+<img src="https://github.com/DiaboloKiat/Deep-Learning/blob/master/Introduction/TwoStage/Mask R-CNN/img/Table1a.png" width="50%" height="50%" align="center">
 （Table 1）Ablations
 
 - 根據 Table 1 中的 a進行分析，結果表明 backbone 加了 FPN 演算法的架構呈現結果會比沒有加的架構來的好。可以看 ResNet-50-FPN 的 AP 比 ResNet-50-C4 的 AP 高了3.3個百分點，而 ResNet-101-FPN 的 AP 比 ResNet-101-C4 的 AP 高了2.7個百分點。
