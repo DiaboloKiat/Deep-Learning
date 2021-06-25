@@ -8,13 +8,13 @@ if [ ! -z "$1" ]; then
 fi
 
 echo "------------------------------------------------------------------------"
-echo "---------------------------pull Seadrone--------------------------------"
+echo "---------------------------pull Deep-Learning--------------------------------"
 echo "------------------------------------------------------------------------"
 git pull
 
 CONFLICTS=$(git ls-files -u | wc -l)
 if [ "$CONFLICTS" -gt 0 ] ; then
-   echo "There is conflict in subt-system. Aborting"
+   echo "There is conflict in Deep-Learning. Aborting"
    return 1
 fi
 
